@@ -1,0 +1,5 @@
+mysql:
+  # TODO: hide db auth
+  server: 'localhost:3306'
+  username: hmrn 
+  password: hmrn
