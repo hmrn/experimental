@@ -13,4 +13,4 @@ def demo():
     if request.method == 'GET':
         return DemoModel.get_by_name(request.args['name'])
     else:
-        return DemoModel.name(request.args['name'])
+        return DemoModel.new(request.args['name'])
